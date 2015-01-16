@@ -1,6 +1,20 @@
 #!/usr/bin/env bash
-rm ~/.oh-my-zsh/custom/aliases.zsh || echo "There are some problems trying to locate you zsh folder"
-ln -s $PWD/zsh/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh || echo "There is a problem linking your aliases"
 
-echo "Aliases has been successfully linked"
+echo "Checking if Oh My ZSH is installed..."
 
+if [ -d ~/.oh-my-zsh ]; then
+    echo "Oh My ZSH is installed."
+    echo "Linking custom aliases..."
+    
+    echo "Checking if aliases already exist..."
+    if [ -a ~/.oh-my-zsh/custom/aliases.zsh ]; then
+        rm ~/.oh-my-zsh/custom/aliases.zsh
+        ln -s $PWD/zsh/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
+        echo "Aliases are linked successfully."
+    else
+        ln -s $PWD/zsh/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
+        echo "Aliases are linked successfully."
+    fi
+else 
+    echo "Please install Oh My ZSH."
+fi
