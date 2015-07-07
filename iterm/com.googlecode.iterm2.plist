@@ -327,7 +327,7 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>91 212 924 485 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 101 650 676 0 0 1280 777 </string>
+	<string>0 101 650 676 0 0 1280 800 </string>
 	<key>NeverWarnAboutMeta</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -550,7 +550,7 @@
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Recycle</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Disable Printing</key>
