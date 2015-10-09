@@ -8,4 +8,5 @@ alias gf="git fetch"
 alias gpp="git push && git push"
 alias godev="cd ~/Development"
 alias django="python3 manage.py"
+alias dm="docker-machine"
 
