@@ -1,0 +1,1 @@
+alias godev="cd ~/Development"
