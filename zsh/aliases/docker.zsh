@@ -1,7 +1,9 @@
+alias d="docker"
 alias dma="docker-machine"
 alias dco="docker-compose"
 alias dim="docker images"
-alias dst="docker stop"
+alias dst="docker start"
+alias dsp="docker stop"
 
 alias dps="docker ps"
 alias dpsa="docker ps -a"
