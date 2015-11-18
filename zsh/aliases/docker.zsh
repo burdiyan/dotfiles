@@ -1,5 +1,6 @@
 alias d="docker"
 alias dma="docker-machine"
+alias sdma="eval $(docker-machine env)"
 alias dco="docker-compose"
 alias dim="docker images"
 alias ds="docker start"
