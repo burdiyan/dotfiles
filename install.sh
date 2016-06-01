@@ -10,10 +10,10 @@ then
         if [ -a ~/.oh-my-zsh/custom/aliases.zsh ]; then
             rm ~/.oh-my-zsh/custom/aliases.zsh
             cat $PWD/zsh/aliases/*.zsh > ~/.oh-my-zsh/custom/aliases.zsh
-            echo "Aliases was created successfully!"
+            echo "Aliases were created successfully!"
         else
             cat $PWD/zsh/aliases/*.zsh > ~/.oh-my-zsh/custom/aliases.zsh
-            echo "Aliases was created successfully!"
+            echo "Aliases were created successfully!"
         fi
     else 
         echo "Please install Oh My ZSH."
