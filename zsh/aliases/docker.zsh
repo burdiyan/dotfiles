@@ -2,6 +2,10 @@ function docker_machine_checkout() {
     eval $(docker-machine env $1)
 }
 
+function remove_dangling_images() {
+    docker rmi $(docker images -q --filter "dangling=true")
+}
+
 alias d="docker"
 alias dma="docker-machine"
 alias dmaco=docker_machine_checkout
@@ -14,3 +18,4 @@ alias dps="docker ps"
 alias dpsa="docker ps -a"
 alias drm="docker rm"
 alias drmi="docker rmi"
+alias drmid=remove_dangling_images
