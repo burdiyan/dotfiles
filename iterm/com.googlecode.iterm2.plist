@@ -340,11 +340,11 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1150 960 445 331 -227 900 1920 1057 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>410 397 620 392 0 0 1440 900 </string>
+	<string>410 379 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>556 1277 796 473 -227 900 1920 1080 </string>
+	<string>449 266 796 473 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-227 900 1920 1080 -227 900 1920 1057 </string>
+	<string>0 0 1440 900 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>-1 1030 650 677 -227 900 1920 1057 </string>
 	<key>NeverWarnAboutMeta</key>
@@ -1158,6 +1158,8 @@
 	<false/>
 	<key>PasteFromClipboard</key>
 	<false/>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1212,7 +1214,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-02-27T00:32:29Z</date>
+	<date>2017-03-08T09:44:32Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -1220,7 +1222,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -1262,6 +1264,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.14</string>
+	<string>3.0.15</string>
 </dict>
 </plist>
