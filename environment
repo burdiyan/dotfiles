@@ -4,6 +4,8 @@ export PATH=$HOME/code/go/bin:$HOME/code/personal/bin:$PATH
 export GOPATH=$HOME/code/go:$HOME/code/personal
 export MYCODE=$HOME/code/personal/src
 
+alias mycode="cd $MYCODE"
+
 # Locale
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
