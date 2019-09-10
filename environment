@@ -1,11 +1,8 @@
 export PATH=/usr/local/php5/bin:$PATH
 export PATH=$HOME/.composer/vendor/bin:$PATH
-export PATH=$HOME/code/go/bin:$HOME/code/personal/bin:$PATH
-export GOPATH=$HOME/code/go:$HOME/code/personal
-export MYCODE=$HOME/code/personal/src
-
-alias mycode="cd $MYCODE"
+export PATH=$HOME/go/bin:$PATH
 
 # Locale
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
